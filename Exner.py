@@ -18,7 +18,7 @@ x = 1000. * np.arange(len(n)) #downstream distance (100km)
 dx = np.mean(np.diff(x)) # because it is regularly-spaced
 
 # Boundary conditions: Dirichlet -- already set in input
-n[0] = 995.
+n[0] = 990.
 n[-1] = 0.
 
 # Constants
