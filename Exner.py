@@ -5,7 +5,6 @@ Created on Tue Apr 25 14:17:15 2017
 
 @author: livbeaulieu30
 """
-
 import numpy as np
 from matplotlib import pyplot as plt
 
@@ -52,5 +51,9 @@ for i in range(int(10)):
 
 #plt.plot( (x[:-1] + x[1:])/2., qs, 'b-', linewidth=2)
 plt.plot( x, n, 'b-', linewidth=2)
+
+plt.xlabel('Downstream Distance')
+plt.ylabel('Bed Elevation')
+plt.title('Exner Equation Model')
 
 plt.show()
